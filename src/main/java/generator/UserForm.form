@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="generator.UserForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="3" y="0" width="922" height="547"/>
+    </constraints>
+    <properties>
+      <background color="-16768959"/>
+      <enabled value="false"/>
+      <font size="20"/>
+      <foreground color="-14370039"/>
+    </properties>
+    <border type="none" title="Генератор паролей" title-justification="2" title-position="1">
+      <font name="Segoe Print"/>
+      <title-color color="-13583607"/>
+    </border>
+    <children>
+      <component id="2b6c1" class="javax.swing.JTextField" binding="loginField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="705c" class="javax.swing.JButton" binding="buttontoStartGenerate">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16431941"/>
+          <font name="Impact" size="14"/>
+          <foreground color="-4518656"/>
+          <hideActionText value="true"/>
+          <text value="Сгенерировать пароль"/>
+        </properties>
+      </component>
+      <component id="26731" class="javax.swing.JTextField" binding="urlField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="b1407" class="javax.swing.JLabel" binding="label1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16467170"/>
+          <font name="MV Boli" size="20"/>
+          <foreground color="-8123205"/>
+          <text value="                Скопируйте ссылку на сайт   "/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="fe2db" class="javax.swing.JTextField" binding="outputPassword">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16770629"/>
+          <font name="Impact" size="18"/>
+          <foreground color="-4736256"/>
+          <text value="Здесь будет вывод"/>
+        </properties>
+      </component>
+      <component id="ae796" class="javax.swing.JLabel" binding="label3">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Impact" size="20"/>
+          <foreground color="-16729339"/>
+          <text value="Введите количество символов для нового пароля  "/>
+        </properties>
+      </component>
+      <component id="6adc6" class="javax.swing.JLabel" binding="label2">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <font name="Georgia" size="20"/>
+          <foreground color="-16729310"/>
+          <text value="                                                  Скопируйте логин"/>
+        </properties>
+      </component>
+      <component id="500b3" class="javax.swing.JTextField" binding="passLenghtField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c179e" class="javax.swing.JButton" binding="bufferPassword">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16774981"/>
+          <font name="Impact" size="20"/>
+          <foreground color="-4519680"/>
+          <text value="Скопировать в буфер"/>
+        </properties>
+      </component>
+      <component id="18e81" class="javax.swing.JButton" binding="pathChangerButton">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16771263"/>
+          <font name="MV Boli" size="20"/>
+          <foreground color="-16729291"/>
+          <hideActionText value="true"/>
+          <text value="Выбрать путь сохранения"/>
+        </properties>
+      </component>
+      <component id="229d0" class="javax.swing.JTextField" binding="pathOutputField">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-16707254"/>
+          <font name="Impact" size="14"/>
+          <foreground color="-16729287"/>
+          <text value="Здесь будет выводится путь сохранения"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
